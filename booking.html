@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <style>
+        .tab{
+            color: black;
+        }
+        .btn{
+            
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body background="https://www.taxi-webdesign.com/wp-content/uploads/2020/03/Taxi-booking-software-1-1.png">
+    <form action="toprint.html" method="POST">
+        <table class="tab" cellspacing="6" cellpadding="2">
+            <tr>
+                <td>
+                    <label for="title">Title</label>
+                </td>
+                <td>
+                    <select id="title" name="title">
+                        <option value="1" selected>Mr.</option>
+                        <option value="2">Mrs.</option>
+                        <option value="3">Ms.</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+        <td>
+            <label for="First Name">First Name:</label>
+        </td>
+        <td>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name">
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <label for="Last Name">Last Name:</label>
+        </td>
+        <td>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="address">Adress:</label>
+            </td>
+            <td>
+                <textarea id="address" name="address" placeholder="Address" rows="2" cols="20"></textarea>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td>
+                <label for="dob">Date of Birth:</label>
+            </td>
+            <td>
+                <input type="date" id="dob" name="Date of Birth" placeholder="YYYY-MM-DD">
+            </td>
+        </tr> -->
+        <tr>
+            <td>
+                <label for="dob">Gender:</label>
+            </td>
+            <td>
+                <input type="radio" id="Male" name="Gender" value="1"/>Male
+                <input type="radio" id="Female" name="Gender" value="2"/>Female
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="mobile">Mobile:</label>
+            </td>
+            <td>
+                <input type="text" id="Mobile" name="Mobile">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Email">Email:</label>
+            </td>
+            <td>
+                <input type="text" id="Email" name="Email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="username">Username:</label>
+            </td>
+            <td>
+                <input type="text" id="Username" name="username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password:</label>
+            </td>
+            <td>
+                <input type="password" id="Password" name="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">Can we contact you?</label>
+            </td>
+            <td>
+                <input type="radio" id="Yes" name="canwecontactyou" value="1"/>Yes
+                <input type="radio" id="No" name="canwecontactyou" value="2"/>No
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">Communication Preferrence</label>
+            </td>
+            <td>
+                <input type="checkbox" id="Email" name="CP" value="1"/>Email
+                <input type="checkbox" id="SMS" name="CP" value="2"/>SMS
+            </td>
+        </tr>
+       
+        <tr>
+            <td>
+                <input type="checkbox" id="terms" name="terms">  I agree to the<a href="conditions.html"> terms and conditions</a> of the website.
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        
+            <tr>
+                <td>
+                    <input type="submit" onClick="javascript:saveData();"  id="submit" name="submit" value="Submit" style="background-color:blue; color:white"; />
+                    <button style="margin-left:3%;" >Reset</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br><br><button class="btn"><a href="index.html" title="home">Back to home</a></button>
+        </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

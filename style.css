@@ -1,0 +1,13 @@
+.text{
+    color: brown;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: blue;
+    border-image-outset: 1cm;
+    background-color: wheat;
+}
