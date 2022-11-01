@@ -1,50 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Cab service management</title>
-    
-    <style>
-        /* .text{
-            color: brown;
-        }
-        .text2{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        } */
-        button{
-            display: flex-end;
-            justify-content: right;
-        }
-        
-    </style>
-    <table bgcolor="blue" height="15%" width="100%"><th style="color:yellow; "><h1>CAB SERVICE MANAGEMENT</th></table></h1>
-</head>
-<body>
-   
-    <centre>
-        <table bgcolor="lavender" height="15%" width="100%">
-    
 
-            <th><a href="index.html" style="color:black;">Home</a></th>
-            <th><a href="reg.html" style="color:black;">login</a></th>
-            <th><a href="chrg.html" style="color:black;">Taxi charges</a></th>
-            <th><a href="login.html" style="color:black;">about us</a></th>
-            <th><a href="index.html" style="color:black;">Contact Us</a></th>
-            </table>
-            <h2 style="color:red">    WELCOME!!</h2>
-            
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<style>
+    .book{
+        display: flex;
+        justify-content: end;
+    }
+</style>
+</head>
+
+<body background="taxi.jpeg">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <img src="logo.jpg" height="90px" width="100px">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Home &nbsp; &nbsp; &nbsp; &nbsp;</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">City Taxi&nbsp; &nbsp; &nbsp; &nbsp;</a>
+                    <a href="#" class="nav-item nav-link active">Profile &nbsp; &nbsp; &nbsp; &nbsp;</a>
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Messages</a>
+                        <div class="dropdown-menu"> -->
+                            <a href="#" class="nav-item nav-link active">Outstation &nbsp; &nbsp; &nbsp; &nbsp;</a>
+                            <a href="#" class="nav-item nav-link active">Rentals</a>
+                            <!-- <a href="#" class="dropdown-item">Drafts</a> -->
+                        </div>
+                    </div>
+                </div>
+                <form class="d-flex">
+                    <div class="input-group">                    
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+                    </div>
+                </form>
+                <div class="navbar-nav">
+                    <a href="login.html" class="nav-item nav-link active">Login</a>
         
-        <!-- <h2 style="color:pink">Home Page</h2> -->
-        <!-- <div style="text-align: right";> -->
-        <img src="https://www.taxinainital.com/wp-content/uploads/2019/03/taxi-cab-service.png" height="250px" width="400px"><button class="btn"><a href="booking.html" title="Booking"><center>BOOK NOW</center></a></button>
-        
-        <h4 class="text2">This Taxi Service offer Taxi Service all over India at the best price. Taxi Service for Sightseeing require, hire us & get best price.<br> We offers you the best price and well maintained Taxi/Cab with Professional Drivers.</h4>
-        <p style="color:white"></p> <marquee direction="left"><h1 class="text">WE'VE FOUND THE BEST CABS</marquee></h1>
-    </centre>
+                </div>
+            </div>
+        </div>
+    </nav>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <a class="book" href="booking.html" title="Booking"><button><center>BOOK NOW</center></a></button>
 </body>
+
 </html>

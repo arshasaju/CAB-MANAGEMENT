@@ -11,3 +11,9 @@
     border-image-outset: 1cm;
     background-color: wheat;
 }
+.book{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 100px;
+}
